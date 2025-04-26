@@ -1,6 +1,15 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "FlowIQ - AI-Powered Agents, Apps and Automation",
+  keywords: "AI, automation, apps, workflows, agents, productivity",
+  description:
+    "FlowIQ is an AI agency that automates workflows and enhances productivity through intelligent agents and apps for local businesses.",
+  openGraph: {
+    title: "FlowIQ - AI-Powered Agents, Workflows and Automation",
+    description:
+      "FlowIQ is an AI agency that automates workflows and enhances productivity through intelligent agents and apps for local businesses",
+    url: "https://flowiq.com",
+    siteName: "FlowIQ",
+  }
 };
 
 import PageIllustration from "@/components/page-illustration";

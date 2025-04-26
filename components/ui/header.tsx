@@ -1,20 +1,66 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import Logo from "./logo";
 
 export default function Header() {
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
-    <header className="z-30 mt-2 w-full md:mt-5">
+    <header className="sticky top-0 z-30 mt-2 w-full md:mt-5">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="relative flex h-14 items-center justify-between gap-3 rounded-2xl bg-gray-900/90 px-3 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] after:absolute after:inset-0 after:-z-10 after:backdrop-blur-xs">
+        <div className="relative flex h-14 items-center justify-between gap-3 rounded-2xl px-3 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] after:absolute after:inset-0 after:-z-10 after:backdrop-blur-xs">
           {/* Site branding */}
           <div className="flex flex-1 items-center">
             <Logo />
           </div>
 
+          {/* Hamburger menu button */}
+          <button
+            className="block md:hidden text-gray-300"
+            onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            <svg
+              className="h-6 w-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+
+          {/* Desktop navigation */}
+          <nav className="hidden gap-3 md:flex">
+            <Link
+              href="/"
+              className="text-gray-300 transition hover:text-gray-200"
+            >
+              Home
+            </Link>
+            <Link
+              href="/about"
+              className="text-gray-300 transition hover:text-gray-200"
+            >
+              About
+            </Link>
+            <Link
+              href="/contact"
+              className="text-gray-300 transition hover:text-gray-200"
+            >
+              Contact
+            </Link>
+          </nav>
+
           {/* Desktop sign in links */}
-          <ul className="flex flex-1 items-center justify-end gap-3">
+          <ul className="hidden flex-1 items-center justify-end gap-3 md:flex">
             <li>
               <Link
                 href="/signin"
@@ -33,6 +79,47 @@ export default function Header() {
             </li>
           </ul>
         </div>
+
+        {/* Mobile menu */}
+        {isMobileMenuOpen && (
+          <nav className="mt-2 flex flex-col gap-3 bg-gray-800 p-4 md:hidden">
+            <Link
+              href="/"
+              className="text-gray-300 transition hover:text-gray-200"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Home
+            </Link>
+            <Link
+              href="/about"
+              className="text-gray-300 transition hover:text-gray-200"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              About
+            </Link>
+            <Link
+              href="/contact"
+              className="text-gray-300 transition hover:text-gray-200"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Contact
+            </Link>
+            <Link
+              href="/signin"
+              className="text-gray-300 transition hover:text-gray-200"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Sign In
+            </Link>
+            <Link
+              href="/signup"
+              className="text-gray-300 transition hover:text-gray-200"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Register
+            </Link>
+          </nav>
+        )}
       </div>
     </header>
   );
