@@ -62,12 +62,19 @@ export default function Form() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="bg-gray-800 py-3 md:py-7">
           <div className="mx-auto max-w-3xl text-center px-7 py-0">
-            <h2 className="text-3xl font-semibold text-white md:text-4xl">
+
+             <h2
+              className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl"
+              data-aos="fade-up"
+            >
               Book A Free Consultation
             </h2>
-            <p className="text-lg text-indigo-200/65 pb-5">
-              After you submit, we’ll reach out to schedule a quick, no-pressure call with one of our workflow experts!
+            <p className="text-lg text-indigo-200/65 pb-8">
+            After you submit, we’ll reach out to schedule a quick, no-pressure call with one of our workflow experts!
             </p>
+
+
+           
             <form onSubmit={handleSubmit} className="space-y-4">
               <input
                 type="text"
@@ -120,7 +127,7 @@ export default function Form() {
               />
               <button
                 type="submit"
-                className={`btn w-full py-3 rounded ${
+                className={`btn group mb-4 w-full bg-linear-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-full cursor-pointer ${
                   isSubmitted ? "bg-gray-500 cursor-not-allowed" : "bg-indigo-600 hover:bg-indigo-700"
                 } text-white`}
                 disabled={isSubmitted} // Disable button if form is submitted
