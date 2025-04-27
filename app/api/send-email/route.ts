@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
       port: 587,
       auth: {
         user: "apikey", // SendGrid API Key username
-        pass: process.env.SENDGRID_API_KEY, // Your SendGrid API Key
+	      pass: process.env.SENDGRID_API_KEY, // Your SendGrid API Key
       },
     });
 
