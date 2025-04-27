@@ -91,3 +91,22 @@
     border-color: var(--color-gray-200, currentColor);
   }
 }
+@keyframes infinite-scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-63%);
+  }
+}
+
+.infinite-scroll {
+  display: flex;
+  gap: 4rem;
+  animation: infinite-scroll 20s linear infinite;
+  will-change: transform;
+ 
+}
+
+
+
