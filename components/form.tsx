@@ -127,8 +127,8 @@ export default function Form() {
               />
               <button
                 type="submit"
-                className={`btn group mb-4 w-full bg-linear-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-full cursor-pointer ${
-                  isSubmitted ? "bg-gray-500 cursor-not-allowed" : "bg-indigo-600 hover:bg-indigo-700"
+                className={`btn group mb-4 w-full sm:mb-0 sm:w-full   ${
+                  isSubmitted ? "bg-gray-500 cursor-not-allowed" : "bg-linear-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%] cursor-pointer"
                 } text-white`}
                 disabled={isSubmitted} // Disable button if form is submitted
               >

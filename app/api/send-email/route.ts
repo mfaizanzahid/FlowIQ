@@ -14,17 +14,26 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ message: "All fields are required" }, { status: 400 });
     }
 
+    // const transporter = nodemailer.createTransport({
+    //   host: "smtp.sendgrid.net",
+    //   port: 587,
+    //   auth: {
+    //     user: "apikey", // SendGrid API Key username
+	  //     pass: process.env.SENDGRID_API_KEY, // Your SendGrid API Key
+    //   },
+    // });
+
     const transporter = nodemailer.createTransport({
-      host: "smtp.sendgrid.net",
+      host: "smtp-relay.brevo.com",
       port: 587,
       auth: {
-        user: "apikey", // SendGrid API Key username
+        user: "faizan@ostive.com", // SendGrid API Key username
 	      pass: process.env.SENDGRID_API_KEY, // Your SendGrid API Key
       },
     });
 
     await transporter.sendMail({
-      from: process.env.FROM_EMAIL, // Replace with your email
+      from: `"FlowIQ" <${process.env.FROM_EMAIL}>`, // Replace with your email
       to: process.env.TO_EMAIL, // Replace with the recipient's email
       subject: "New Consultation Request",
       html: `
