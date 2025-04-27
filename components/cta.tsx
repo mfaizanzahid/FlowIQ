@@ -1,7 +1,12 @@
 import Image from "next/image";
 import BlurredShape from "@/public/images/blurred-shape.svg";
 
-export default function Cta({ onBookConsultation }) {
+
+interface CtaProps {
+  onBookConsultation: () => void;
+}
+
+export default function Cta({ onBookConsultation }: CtaProps) {
   return (
     <section className="relative overflow-hidden">
       <div

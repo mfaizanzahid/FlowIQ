@@ -1,7 +1,11 @@
 import VideoThumb from "@/public/images/hero-image-01.jpg";
 import ModalVideo from "@/components/modal-video";
 
-export default function HeroHome({ onBookConsultation }) {
+interface CtaProps {
+  onBookConsultation: () => void;
+}
+
+export default function HeroHome({ onBookConsultation }: CtaProps) {
   return (
     <section>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
