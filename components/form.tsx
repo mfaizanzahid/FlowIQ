@@ -82,7 +82,7 @@ export default function Form() {
                 placeholder="Full Name"
                 value={formData.fullName}
                 onChange={handleChange}
-                className="w-full p-3 rounded bg-gray-700 text-white"
+                className="form-input w-full"
                 required
                 disabled={isSubmitted} // Disable input if form is submitted
               />
@@ -92,7 +92,7 @@ export default function Form() {
                 placeholder="Company Name"
                 value={formData.companyName}
                 onChange={handleChange}
-                className="w-full p-3 rounded bg-gray-700 text-white"
+                className="form-input w-full"
                 required
                 disabled={isSubmitted} // Disable input if form is submitted
               />
@@ -102,7 +102,7 @@ export default function Form() {
                 placeholder="Email Address"
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full p-3 rounded bg-gray-700 text-white"
+                className="form-input w-full"
                 required
                 disabled={isSubmitted} // Disable input if form is submitted
               />
@@ -112,7 +112,8 @@ export default function Form() {
                 placeholder="Phone Number"
                 value={formData.phone}
                 onChange={handleChange}
-                className="w-full p-3 rounded bg-gray-700 text-white"
+                className="form-input w-full"
+                // className="w-full p-3 rounded bg-gray-700 text-white"
                 required
                 disabled={isSubmitted} // Disable input if form is submitted
               />
@@ -121,7 +122,8 @@ export default function Form() {
                 placeholder="What’s one area you'd love to automate?"
                 value={formData.automationArea}
                 onChange={handleChange}
-                className="w-full p-3 rounded bg-gray-700 text-white"
+                className="form-input w-full"
+                // className="w-full p-3 rounded bg-gray-700 text-white"
                 required
                 disabled={isSubmitted} // Disable textarea if form is submitted
               />
