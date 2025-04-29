@@ -115,24 +115,21 @@ export default function Header({ onBookConsultation }: HeaderProps) {
             <Link
               href="/contact"
               className="text-gray-300 transition hover:text-gray-200"
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={() => setMobileMenuOpen(false) }
             >
               Contact
             </Link>
             <Link
-              href="/signin"
+              href="#"
               className="text-gray-300 transition hover:text-gray-200"
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={() => {
+                setMobileMenuOpen(false);
+                onBookConsultation();
+              }}
             >
-              Sign In
+              Free AI Consultation
             </Link>
-            <Link
-              href="/signup"
-              className="text-gray-300 transition hover:text-gray-200"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Register
-            </Link>
+            
           </nav>
         )}
       </div>

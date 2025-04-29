@@ -11,6 +11,7 @@ import Testimonials from "@/components/testimonials";
 import Cta from "@/components/cta";
 import Form from "@/components/form";
 import Faqs from "@/components/faqs";
+import About from "@/components/about";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -28,6 +29,7 @@ export default function Home() {
       <Workflows />
       <Integrations />
       <Testimonials />
+      <About />
       <Faqs />
       <Cta onBookConsultation={openModal} />
       
