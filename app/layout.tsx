@@ -2,8 +2,9 @@ import "./css/style.css";
 
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
-
+import dotenv from "dotenv";
 import Header from "@/components/ui/header";
+dotenv.config(); // Load environment variables
 
 const inter = Inter({
   subsets: ["latin"],
@@ -59,6 +60,10 @@ export default function RootLayout({
           {children}
         </div>
       </body>
+      
+
+      {process.env.HEADER_CODE}
+
     </html>
   );
 }

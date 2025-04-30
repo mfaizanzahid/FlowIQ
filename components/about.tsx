@@ -10,8 +10,8 @@ import Founder from "@/public/images/founder.png";
 export default function About() {
   return (
     <section>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="pb-12 md:pb-20">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <div className="pb-12 md:pb-12">
           {/* Section header */}
           <div className="mx-auto lg:max-w-none max-w-3xl pb-12 text-center md:pb-20">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
@@ -25,17 +25,17 @@ export default function About() {
 
 
 <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-16 mt-4">
-  <div className="md:col-span-2 text-left">
-    <p className="text-lg text-indigo-200/65 mb-4">
+  <div className="md:col-span-2 md:text-left text-md font-normal text-indigo-200/65">
+    <p className="mb-4">
       With 20+ years of experience across sales, marketing, operations, project management, and AI development — Faizan knows what it takes to make service businesses tick.
     </p>
-    <p className="text-lg text-indigo-200/65 mb-4">
+    <p className="mb-4">
       He’s not just another tech guy tossing around buzzwords. Faizan has personally led 100+ automation rollouts for home inspectors, HVAC pros, and multifamily operators — turning clunky, manual workflows into smooth, scalable systems that save time and boost revenue.
     </p>
-    <p className="text-lg text-indigo-200/65 mb-4">
+    <p className="mb-4">
       At FlowIQ, he brings that same real-world, results-first mindset to every project. Backed by a sharp team of AI engineers, automation pros, and workflow specialists, Faizan ensures you’re not just getting a cool bot — you’re getting a reliable solution that works in the trenches of your business.
     </p>
-    <p className="text-lg text-indigo-200/65 mb-4">
+    <p className="mb-4">
       "I believe AI should be practical, profitable, and painless to use — not overwhelming or out of reach. That’s what we deliver at FlowIQ."
       — Faizan, Founder of FlowIQ
     </p>
