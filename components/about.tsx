@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Spotlight from "@/components/spotlight";
 import Founder from "@/public/images/founder.png";
-
+import BlurredShapeGray from "@/public/images/blurred-shape-gray.svg";
 
 
 
@@ -9,8 +9,16 @@ import Founder from "@/public/images/founder.png";
 
 export default function About() {
   return (
-    <section>
-      <div className="mx-auto max-w-5xl px-4 sm:px-6">
+    <section className="relative">
+      <div
+        className="pointer-events-none absolute left-1/2 top-0 -z-10 -mt-20 -translate-x-1/2"
+        aria-hidden="true"
+        id="about"
+      >
+        
+      </div>
+      
+      <div className="mx-auto max-w-5xl px-4 sm:px-6" >
         <div className="pb-12 md:pb-12">
           {/* Section header */}
           <div className="mx-auto lg:max-w-none max-w-3xl pb-12 text-center md:pb-20">

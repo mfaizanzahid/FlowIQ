@@ -111,7 +111,9 @@ export default function Testimonials() {
   const [category, setCategory] = useState<number>(1);
 
   return (
-    <div className="mx-auto max-w-6xl px-4 sm:px-6">
+    
+    <div className="mx-auto max-w-6xl px-4 sm:px-6" id="testimonials">
+      
       <div className="border-t py-12 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1] md:py-20">
         {/* Section header */}
         <div className="mx-auto max-w-3xl pb-12 text-center">

@@ -27,7 +27,14 @@ const logos = [
 
 export default function AITools() {
   return (
-    <section>
+    <section className="relative" >
+       <div
+        className="pointer-events-none absolute left-1/2 top-0 -z-10 -mt-20 -translate-x-1/2"
+        aria-hidden="true"
+        id="ai-stack"
+      >
+        
+      </div>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
           {/* Section header */}
