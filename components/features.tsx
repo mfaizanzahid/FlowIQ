@@ -9,7 +9,7 @@ export default function Features() {
       <div
         className="pointer-events-none absolute left-1/2 top-0 -z-10 -mt-20 -translate-x-1/2"
         aria-hidden="true"
-        id="how-we-can-help"
+        
       >
         <Image
           className="max-w-none"
@@ -31,7 +31,7 @@ export default function Features() {
           alt="Blurred shape"
         />
       </div>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6" >
+      <div className="mx-auto max-w-6xl px-4 sm:px-6" id="how-we-can-help">
         <div className="border-t py-12 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1] md:py-20">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12" >

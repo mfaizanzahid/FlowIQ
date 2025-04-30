@@ -55,7 +55,7 @@ export default function Header({ onBookConsultation }: HeaderProps) {
           </button>
 
           {/* Desktop navigation */}
-          <nav className="hidden gap-3 md:flex">
+          <nav className="hidden gap-4 md:flex">
             {navLinks.map(({ text, href }) => (
               <Link
                 key={text}

@@ -62,7 +62,7 @@ export default function RootLayout({
       </body>
       
 
-      {process.env.HEADER_CODE}
+      <div dangerouslySetInnerHTML={{ __html: process.env.HEADER_CODE || "" }} />
 
     </html>
   );

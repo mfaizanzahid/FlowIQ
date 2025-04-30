@@ -38,7 +38,7 @@ export default function About() {
       With 20+ years of experience across sales, marketing, operations, project management, and AI development — Faizan knows what it takes to make service businesses tick.
     </p>
     <p className="mb-4">
-      He’s not just another tech guy tossing around buzzwords. Faizan has personally led 100+ automation rollouts for home inspectors, HVAC pros, and multifamily operators — turning clunky, manual workflows into smooth, scalable systems that save time and boost revenue.
+      He’s not just another tech guy tossing around buzzwords. Faizan has personally led 100+ automation rollouts for home inspectors, HVAC pros, law firms and multifamily operators — turning clunky, manual workflows into smooth, scalable systems that save time and boost revenue.
     </p>
     <p className="mb-4">
       At FlowIQ, he brings that same real-world, results-first mindset to every project. Backed by a sharp team of AI engineers, automation pros, and workflow specialists, Faizan ensures you’re not just getting a cool bot — you’re getting a reliable solution that works in the trenches of your business.
