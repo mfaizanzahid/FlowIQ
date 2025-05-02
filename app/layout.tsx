@@ -1,10 +1,12 @@
 import "./css/style.css";
-
+import Script from 'next/script'
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
-// import dotenv from "dotenv";
+import dotenv from "dotenv";
 import Header from "@/components/ui/header";
-// dotenv.config(); // Load environment variables
+dotenv.config(); // Load environment variables
+
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_TRACKING_ID || 'G-J9FWDRZV2B';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -53,15 +55,33 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+         <head>
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GA_MEASUREMENT_ID}');
+            `,
+          }}
+        />
+      </head>
       <body
         className={`${inter.variable} ${nacelle.variable} bg-gray-950 font-inter text-base text-gray-200 antialiased`}
       >
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           {/* <Header /> */}
           {children}
-          {/* <div dangerouslySetInnerHTML={{ __html: process.env.HEADER_CODE || "" }} /> */}
+
         </div>
-        
+        {/* <div dangerouslySetInnerHTML={{ __html: process.env.HEADER_CODE || "" }} /> */}
       </body>
       
 
