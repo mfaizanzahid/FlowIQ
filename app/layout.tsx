@@ -2,9 +2,9 @@ import "./css/style.css";
 
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
-import dotenv from "dotenv";
+// import dotenv from "dotenv";
 import Header from "@/components/ui/header";
-dotenv.config(); // Load environment variables
+// dotenv.config(); // Load environment variables
 
 const inter = Inter({
   subsets: ["latin"],
@@ -59,11 +59,13 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           {/* <Header /> */}
           {children}
+          {/* <div dangerouslySetInnerHTML={{ __html: process.env.HEADER_CODE || "" }} /> */}
         </div>
+        
       </body>
       
 
-      <div dangerouslySetInnerHTML={{ __html: process.env.HEADER_CODE || "" }} />
+      
 
     </html>
   );

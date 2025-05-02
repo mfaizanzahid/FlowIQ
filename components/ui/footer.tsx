@@ -1,9 +1,22 @@
+"use client";
+import { useEffect, useState } from "react";
 import Logo from "./logo";
 import Image from "next/image";
 import Link from "next/link";
 import FooterIllustration from "@/public/images/footer-illustration.svg";
+import dotenv from "dotenv";
+dotenv.config(); // Load environment variables
 
 export default function Footer() {
+
+  const [headerCode, setHeaderCode] = useState<string | null>(null);
+
+  useEffect(() => {
+    // Ensure the script is only added on the client side
+    setHeaderCode(process.env.NEXT_PUBLIC_HEADER_CODE || "");
+  }, []);
+
+
   return (
     <footer>
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
@@ -162,7 +175,7 @@ export default function Footer() {
             <div className="text-sm">
               <p className="mb-3 text-indigo-200/65">
 
-                &copy; {new Date().getFullYear()} FlowIQ. All rights reserved.
+                {/* &copy; {new Date().getFullYear()} FlowIQ. All rights reserved. */}
             
                 {/* <span className="text-gray-700"> · </span> */}
                 {/* <Link
@@ -252,6 +265,25 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      {/* Dynamically add HEADER_CODE */}
+      {headerCode && (
+  <>
+    {console.log("Rendering Header Code:", headerCode)}
+    <div dangerouslySetInnerHTML={{ __html: headerCode }} />
+  </>
+)}
+
+{/* <div dangerouslySetInnerHTML={{ __html: process.env.HEADER_CODE || "" }} /> */}
+
+
+
+
+
+      
+
+
+      
     </footer>
+    
   );
 }
