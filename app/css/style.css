@@ -91,21 +91,18 @@
     border-color: var(--color-gray-200, currentColor);
   }
 }
-@keyframes infinite-scroll {
+@keyframes scroll {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-63%);
+    transform: translateX(-100%);
   }
 }
 
 .infinite-scroll {
   display: flex;
-  gap: 4rem;
-  animation: infinite-scroll 20s linear infinite;
-  will-change: transform;
- 
+  animation: scroll 20s linear infinite;
 }
 
 .modal-backdrop {

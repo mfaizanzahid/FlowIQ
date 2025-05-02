@@ -70,6 +70,11 @@ export default function AITools() {
           </div>
 
         </div>
+
+
+
+
+        
       </div>
     </section>
   );

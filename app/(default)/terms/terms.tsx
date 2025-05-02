@@ -39,31 +39,31 @@ export default function Terms() {
 <p className="mb-4">For the purposes of these Terms and Conditions:</p>
 <ul className="list-disc pl-4">
 <li>
-<p className="mb-4"><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
+<p className="mb-4"><b>Affiliate</b> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
 </li>
 <li>
-<p className="mb-4"><strong>Country</strong> refers to: Wyoming,  United States</p>
+<p className="mb-4"><b>Country</b> refers to: Wyoming,  United States</p>
 </li>
 <li>
-<p className="mb-4"><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to FlowIQ.</p>
+<p className="mb-4"><b>Company</b> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to FlowIQ.</p>
 </li>
 <li>
-<p className="mb-4"><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</p>
+<p className="mb-4"><b>Device</b> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</p>
 </li>
 <li>
-<p className="mb-4"><strong>Service</strong> refers to the Website.</p>
+<p className="mb-4"><b>Service</b> refers to the Website.</p>
 </li>
 <li>
-<p className="mb-4"><strong>Terms and Conditions</strong> (also referred as &quot;Terms&quot;) mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement has been created with the help of the <a href="https://www.termsfeed.com/terms-conditions-generator/" target="_blank">Terms and Conditions Generator</a>.</p>
+<p className="mb-4"><b>Terms and Conditions</b> (also referred as &quot;Terms&quot;) mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement has been created with the help of the <a href="https://www.termsfeed.com/terms-conditions-generator/" target="_blank">Terms and Conditions Generator</a>.</p>
 </li>
 <li>
-<p className="mb-4"><strong>Third-party Social Media Service</strong> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</p>
+<p className="mb-4"><b>Third-party Social Media Service</b> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</p>
 </li>
 <li>
-<p className="mb-4"><strong>Website</strong> refers to FlowIQ, accessible from <a href="flowiq.cc" rel="external nofollow noopener" target="_blank">flowiq.cc</a></p>
+<p className="mb-4"><b>Website</b> refers to FlowIQ, accessible from <a href="flowiq.cc" rel="external nofollow noopener" target="_blank">flowiq.cc</a></p>
 </li>
 <li>
-<p className="mb-4"><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
+<p className="mb-4"><b>You</b> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
 </li>
 </ul>
 <h2 className="text-2xl my-6">Acknowledgment</h2>
