@@ -1,5 +1,6 @@
 import Logo from "./logo";
 import Image from "next/image";
+import Link from "next/link";
 import FooterIllustration from "@/public/images/footer-illustration.svg";
 
 export default function Footer() {
@@ -25,28 +26,28 @@ export default function Footer() {
             <h3 className="text-sm font-medium text-gray-200">Service</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
+                <Link
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="/#how-we-can-help"
                 >
                   Solutions
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="/#process"
                 >
                   Process
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="/#integrations"
                 >
                   Integrations
-                </a>
+                </Link>
               </li>
               
             </ul>
@@ -56,28 +57,28 @@ export default function Footer() {
             <h3 className="text-sm font-medium text-gray-200">Company</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
+                <Link
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="/#about"
                 >
                   About us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="/#testimonials"
                 >
                   Results
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="/#contact"
                 >
                   Contact us
-                </a>
+                </Link>
               </li>
              
             </ul>
@@ -88,20 +89,20 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
 
               <li>
-                <a
+                <Link
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="/terms"
                 >
                   Terms of service
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="/privacy"
                 >
                   Privacy policy
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -112,44 +113,44 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
+                <Link
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="/#0"
                 >
                   Templates
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="/#0"
                 >
                   Tutorials
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="/#0"
                 >
                   Knowledge base
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="/#0"
                 >
                   Learn
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="/#0"
                 >
                   Cookie manager
-                </a>
+                </Link>
               </li>
             </ul>
           </div> */}
@@ -164,16 +165,16 @@ export default function Footer() {
                 &copy; {new Date().getFullYear()} FlowIQ. All rights reserved.
             
                 {/* <span className="text-gray-700"> · </span> */}
-                {/* <a
+                {/* <Link
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="/#0"
                 >
                   Terms
-                </a> */}
+                </Link> */}
               </p>
               <ul className="inline-flex gap-1">
                 <li>
-                  <a
+                  <Link
                     className="flex items-center justify-center text-indigo-500 transition hover:text-indigo-400"
                     href="/#0"
                     aria-label="Twitter"
@@ -185,10 +186,10 @@ export default function Footer() {
                     >
                       <path d="m13.063 9 3.495 4.475L20.601 9h2.454l-5.359 5.931L24 23h-4.938l-3.866-4.893L10.771 23H8.316l5.735-6.342L8 9h5.063Zm-.74 1.347h-1.457l8.875 11.232h1.36l-8.778-11.232Z" />
                     </svg> */}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="flex items-center justify-center text-indigo-500 transition hover:text-indigo-400"
                     href="/#0"
                     aria-label="Facebook"
@@ -200,10 +201,10 @@ export default function Footer() {
                     >
                       <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
                     </svg>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="flex items-center justify-center text-indigo-500 transition hover:text-indigo-400"
                     href="/#0"
                     aria-label="Instagram"
@@ -214,11 +215,11 @@ export default function Footer() {
                    className="h-6 w-6 lucide lucide-instagram-icon lucide-instagram">
                     <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
                     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     className="flex items-center justify-center text-indigo-500 transition hover:text-indigo-400"
                     href="/#0"
                     aria-label="Youtube"
@@ -229,10 +230,10 @@ export default function Footer() {
                    className="h-8 w-6 lucide lucide-youtube-icon lucide-youtube">
                     <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/>
                    <path d="m10 15 5-3-5-3z"/></svg>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="flex items-center justify-center text-indigo-500 transition hover:text-indigo-400"
                     href="/#0"
                     aria-label="LinkedIn"
@@ -244,7 +245,7 @@ export default function Footer() {
                     >
                       <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/>
                     </svg>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
