@@ -35,7 +35,7 @@ const testimonials = [
   {
     img: TestimonialImg02,
     clientImg: ClientImg02,
-    name: "Rebecca Lin",
+    name: "Marcus Steele",
     company: "ComfortFirst HVAC",
     content:
       "We wanted to scale our HVAC business but were stuck manually following up on quotes and leads. FlowIQ designed a marketing automation system that sends personalized follow-ups, seasonal promos, and maintenance reminders automatically. Our booked jobs have increased by 30% without hiring new staff!",
@@ -62,7 +62,7 @@ const testimonials = [
   {
     img: TestimonialImg05,
     clientImg: ClientImg05,
-    name: "Marcus Steele",
+    name: "Rebecca Lin",
     company: "ArcticBreeze HVAC Solutions",
     content:
       "Our HVAC company used to struggle with after-hours customer questions, and we were losing opportunities because of it. The AI agent FlowIQ deployed now answers questions, schedules service calls, and even troubleshoots basic HVAC issues. It’s like having a front-desk team working 24/7 without the cost.",
