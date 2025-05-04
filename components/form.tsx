@@ -37,6 +37,13 @@ export default function Form() {
       if (response.ok) {
         setMessage("Your message has been sent successfully!");
         setIsSubmitted(true); // Mark the form as submitted
+        if (typeof window !== "undefined" && window.gtag) {
+          window.gtag("event", "Form Submitted", {
+            event_category: "Engagement",
+            event_label: "Form Submission",
+          });
+        }
+        
       } else {
         setMessage("Failed to send your message. Please try again.");
       }

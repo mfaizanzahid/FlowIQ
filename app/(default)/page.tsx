@@ -13,10 +13,24 @@ import Form from "@/components/form";
 import Faqs from "@/components/faqs";
 import About from "@/components/about";
 
+declare global {
+  interface Window {
+    gtag?: (...args: any[]) => void;
+  }
+}
+
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const openModal = () => setIsModalOpen(true);
+  const openModal = () => {
+    setIsModalOpen(true);
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("event", "Form Started", {
+        event_category: "Engagement",
+        event_label: "Modal Opened",
+      });
+    }
+  };
   const closeModal = () => setIsModalOpen(false);
 
   return (
