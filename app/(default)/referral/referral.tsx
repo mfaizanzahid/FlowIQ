@@ -114,7 +114,7 @@ export default function ReferralForm() {
               {referrals.map((ref, idx) => (
                 <div
                   key={idx}
-                  className="w-full bg-white/10 rounded-lg p-4 mb-2 border border-indigo-200/20 relative"
+                  className="w-full bg-gray-800 rounded-lg p-4 mb-5 border border-indigo-200/20 relative"
                 >
                   <div className="flex justify-between items-center mb-2">
                     <div className="flex flex-1">

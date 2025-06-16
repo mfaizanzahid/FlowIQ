@@ -105,7 +105,16 @@ export default function Footer() {
                   Privacy policy
                 </Link>
               </li>
+              <li>
+                <Link
+                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  href="/referral"
+                >
+                  Refer a client
+                </Link>
+              </li>
             </ul>
+            
           </div>
           {/* 4th block
           <div className="space-y-2">
