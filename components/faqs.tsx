@@ -37,49 +37,49 @@ export default function Faqs() {
 
   const faqs = [
     {
-      question: "My team isn’t tech-savvy. Will we actually be able to use this?",
+      question: "My customers don’t want AI.",
       answer:
-        "100%. We design our systems for real-world use — not Silicon Valley engineers. Whether it’s your office manager, technician, or dispatcher, we make the tools intuitive, streamlined, and aligned with the way your team already works. We also handle all the setup, training, and onboarding — so there’s no complicated dashboard to learn, and no steep learning curve. Just clear results from day one.",
+        "We hear this all the time. Customers want authentic, human interaction — and that’s exactly what they get. Our approach uses AI in the background to handle the repetitive admin: scheduling reminders, follow-ups, service renewals, and upsell prompts. That way, your office team can focus on talking to customers instead of chasing down tasks. It’s not about replacing humans — it’s about freeing them to deliver better service.",
     },
     {
-      question: "Will AI agents make my business feel robotic or impersonal?",
+      question: "We already use ServiceTitan/Jobber/ISN — why do we need FlowIQ?",
       answer:
-        "That’s a valid concern — but we’ve solved for it. Our AI voice agents and chat agents are built with empathy, timing, and tone in mind. They’re trained to speak like a human, handle objections gracefully, and even add your brand personality into every interaction. Most clients tell us their customers don’t even realize they’re talking to AI — they just appreciate the fast, helpful response.",
+        "Great — those platforms are powerful, but they’re built for scheduling, dispatch, and invoicing — not for business development. Most companies barely scratch the surface of what’s possible. We optimize, customize, and manage these tools so they also drive rebooking, maintenance contracts, upsells, cross-sells, and referrals. In short, we turn your existing investment into a real revenue engine.",
     },
     {
-      question: "How do you make sure the automation doesn’t break or mess something up?",
+      question: "Is this complicated for my team to learn?",
       answer:
-        "We treat automation like mission-critical infrastructure. Before anything goes live, we run simulations, failover tests, and use version control for workflows. Every system has built-in guardrails, validation steps, and fallback logic — so if something’s off, it flags or pauses before it impacts your operations. After launch, we provide active monitoring and support to ensure your system stays reliable, even as your business evolves.",
+        "Not at all. That’s the beauty of it. We don’t overhaul how your team works or introduce “new shiny software” they have to figure out. We customize the platforms you already use and handle the administration ourselves. For your staff, it’s seamless — they keep doing what they do best, while the system quietly works in the background to boost revenue.",
     },
     {
-      question: "What if our processes are messy or not documented? Can you still help?",
+      question: "Do you replace my existing CRM or scheduling software?",
       answer:
-        "Yes — and in fact, that’s where most businesses are when they come to us. We don’t expect a polished SOP or perfectly mapped workflow. During our discovery process, we work with you to unpack how things actually get done (even if that’s “Bob handles it when he remembers”). Then we organize, streamline, and automate your processes one layer at a time. You’ll come out of it not just with automation — but with clarity and structure across your operations.",
+        "No. We work with what you already have. Whether it’s ServiceTitan, Jobber, ISN, Salesforce, Zoho, HubSpot, or Go High Level — we customize, connect, and optimize them so they actually fit your business model. Instead of switching systems or juggling multiple tools, we make your current setup smarter and more profitable.",
     },
     {
-      question: "Is this only for big companies? We're a lean team trying to grow.",
+      question: "What kind of ROI can I expect?",
       answer:
-        "This is especially for lean teams. We’ve built AI and automation systems for home inspectors with just 2 team members and HVAC shops with 1 van. The goal is to help you punch above your weight — automate what drains your time, close more business, and grow profitably without hiring more staff. It’s not about size — it’s about building smarter from where you are right now.",
+        "Most of our clients see 15–30% more booked jobs and incremental revenue within the first 60 days. That comes from better follow-up, upselling, recurring service agreements, and reactivation of past customers. And because we’re optimizing the systems you’ve already invested in, you’re not adding new costs — you’re simply converting more value out of what’s already there.",
     },
     {
-      question: "How long does it take to go live?",
+      question: "Can you handle ongoing administration of ServiceTitan?",
       answer:
-        "We move quickly — most projects go live within 2–4 weeks. That includes discovery, strategy, build, testing, and launch. We don’t drag things out or hide behind jargon. You’ll get clear timelines, frequent updates, and an obsessive focus on quick wins that start delivering value before the full system is even complete.",
+        "Yes. This is actually where we shine. Many home service companies set up their FSM or CRM software once and then let it collect dust — which leads to inefficiencies, lost opportunities, and broken workflows. With FlowIQ, we offer done-for-you monthly management: cleaning data, updating automations, fixing errors, and rolling out new revenue-generating campaigns. Your systems stay sharp, updated, and profitable — month after month.",
     },
     {
-      question: "Can this really help with follow-ups, quote chasing, and appointment scheduling?",
+      question: "We already have an office manager handling this — why outsource?",
       answer:
-        "Absolutely — and that’s one of the highest-ROI areas for automation. Imagine never having to remind your team to follow up on a lead, confirm an appointment, or chase down a quote. Our AI agents can text, email, or call your prospects in real time, answer questions, overcome objections, and schedule right into your existing calendar. It’s like giving your team a full-time assistant — without adding to payroll.",
+        "Office managers are great at keeping operations moving, but they’re not specialists in CRM architecture, workflow design, or revenue systems. That’s where we come in. We don’t replace your office manager — we make their job easier. We handle the heavy lifting behind the scenes, so your office staff has a reliable, fully optimized system that saves them time and helps the business grow.",
     },
     {
-      question: "What if I already use software like ISN, ServiceTitan, Clio or a CRM?",
+      question: "What if we don’t have a dedicated sales team?",
       answer:
-        "Perfect. We specialize in integrating with the tools you already know and rely on — whether that’s Clio, ISN, ServiceTitan, Zoho, HighLevel, HubSpot, Salesforce, or something more niche. Our systems layer on top of your current tech stack and make it work harder for you. No need to rip and replace — we turn your existing tools into a seamless, smart ecosystem.",
+        "That’s actually where our systems have the most impact. By automating follow-ups, service reminders, and rebooking campaigns, you create a “silent sales engine” that works 24/7 — even without a sales rep on staff. Your technicians, office staff, and marketing dollars all work harder because customers don’t slip through the cracks.",
     },
     {
-      question: "Will this actually save us money? Or is it just a shiny toy?",
+      question: "Will this replace our marketing?",
       answer:
-        "This isn’t some trendy AI gimmick — it’s a revenue enabler. Our clients routinely save 20–40+ hours per month on manual admin tasks, reduce missed appointments, and speed up response times, leading to more closed jobs. One HVAC company told us the system paid for itself in the first 6 weeks. Think of it as a permanent productivity upgrade that compounds over time — with hard numbers to prove it.",
+        "Not at all. If anything, it makes your marketing more valuable. Most companies leak money by paying for leads that never book, or by doing one-off jobs with no repeat business. Our systems plug those holes. You keep running your marketing campaigns, but now you’ll capture and convert more of those leads into repeat, long-term customers.",
     },
   ];
 
@@ -106,7 +106,7 @@ export default function Faqs() {
               Got Questions? We've Got Answers.
             </h2>
             <p className="text-lg text-indigo-200/65">
-              We get it — AI automation can feel overwhelming at first. Here are answers to the most common questions we hear, so you can move forward with confidence.
+              We know you’ve heard the buzzwords. That’s why we keep it simple: no gimmicks, no jargon - just clear answers on how we help your service management software and CRM actually drive revenue.
             </p>
           </div>
 

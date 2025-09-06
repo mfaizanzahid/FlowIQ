@@ -41,10 +41,10 @@ export default function Features() {
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Our AI Solutions, Built for Real Businesses
+            Services That Put Your Service Management Software to Work
             </h2>
             <p className="text-lg text-indigo-200/65">
-            Whether you’re booking service calls, chasing leads, managing customer inquiries, or trying to automate your marketing — we’ve got you covered.
+           We don’t replace your tools — we make them smarter, leaner, and revenue-focused.
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
@@ -62,76 +62,85 @@ export default function Features() {
 
 
               <svg className="mb-3 stroke-indigo-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" >
-              <path strokeOpacity="1" d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/>
-              <path d="M2 14h2"/><path d="M20 14h2"/><path strokeOpacity="1" d="M15 13v2"/><path strokeOpacity="1" d="M9 13v2"/></svg>
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"/>
+              </svg>
+              
+
               
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              AI Smart Agents & Chatbots
+              FSM Software Implementation & Admin
               </h3>
               <p className="text-indigo-200/65">
-              Not just fancy conversation bots — they integrate with your CRM, book jobs, give instant quotes, guide prospects, and qualify leads — all in your brand’s tone of voice.
+              We handle the heavy lifting of implementing, managing and customizing ServiceTitan, ISN, Jobber, and more. From setting up workflows to cleaning data, your platform runs smoother, faster, and error-free.
               </p>
             </article>
             <article>
             <svg className="mb-3 stroke-indigo-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" >
-            <path d="M2 10v3"/><path d="M6 6v11"/><path d="M10 3v18"/><path d="M14 8v7"/><path d="M18 5v13"/><path d="M22 10v3"/></svg>
+            <path d="m14.305 7.53.923-.382"/><path d="m15.228 4.852-.923-.383"/><path d="m16.852 3.228-.383-.924"/><path d="m16.852 8.772-.383.923"/><path d="m19.148 3.228.383-.924"/><path d="m19.53 9.696-.382-.924"/><path d="m20.772 4.852.924-.383"/><path d="m20.772 7.148.924.383"/><path d="M22 13v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"/><path d="M8 21h8"/><circle cx="18" cy="6" r="3"/>
+            </svg>
 
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              AI Voice Agents
-              </h3>
-              <p className="text-indigo-200/65">
-              Outbound and inbound AI agents that always answer, always call, and always follow up — handling customer calls with a 100% touch point rate.
-              </p>
-            </article>
-            <article>
-            <svg className="mb-3 stroke-indigo-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" >
-            <path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z"/><path d="M21 16v2a4 4 0 0 1-4 4h-5"/>
             
-            </svg>
 
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              AI Call Centres
+              CRM Integration & Sales Systems
               </h3>
               <p className="text-indigo-200/65">
-              Imagine a full call center — but AI-driven. Specialized voice agents work together to support, serve, and sell for your business, around the clock.
+              Zoho, Salesforce, HubSpot, GoHighLevel - we build and manage custom CRMs that plug into your scheduling software. With pipelines, automations, and dashboards designed for sales, your team always knows the next best move.
               </p>
             </article>
             <article>
+
+            
             <svg className="mb-3 stroke-indigo-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" >
-            <rect x="2" y="4" width="20" height="16" rx="2"/><path d="M10 4v4"/><path d="M2 8h20"/><path d="M6 4v4"/>
-            </svg>
-              
+              <path strokeOpacity="1" d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/>
+              <path d="M2 14h2"/><path d="M20 14h2"/><path strokeOpacity="1" d="M15 13v2"/><path strokeOpacity="1" d="M9 13v2"/>
+              </svg>
+
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Custom AI Apps
+              AI-Enabled Revenue Growth Systems
               </h3>
               <p className="text-indigo-200/65">
-              Need a tailored web app that uses AI magic behind the scenes? We design and build custom AI-powered applications that do exactly what you need.
+              We inject AI into your sales stack. From smart follow-up campaigns to predictive upselling, our systems help you win back lost leads, sell more maintenance contracts, and capture repeat business automatically.
               </p>
             </article>
             <article>
-            <svg className="mb-3 stroke-indigo-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" >
+                   <svg className="mb-3 stroke-indigo-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" >
             <circle cx="12" cy="4.5" r="2.5"/><path d="m10.2 6.3-3.9 3.9"/>
             <circle cx="4.5" cy="12" r="2.5"/><path d="M7 12h10"/>
             <circle cx="19.5" cy="12" r="2.5"/><path d="m13.8 17.7 3.9-3.9"/>
             <circle cx="12" cy="19.5" r="2.5"/>
             </svg>
+              
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Workflow Automation
+              Workflow & Marketing Automation
               </h3>
               <p className="text-indigo-200/65">
-              We automate your operational processes — from service call scheduling to customer onboarding to task assignments — cutting down manual errors and freeing up your team to focus on real growth.
+              We automate the operational grind (reminders, invoicing, job tracking) AND your marketing (email, SMS, content). The result: more booked jobs, fewer dropped balls, and 40+ hours a week saved for your team.
+              </p>
+            </article>
+            <article>
+     
+
+            <svg className="mb-3 stroke-indigo-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" >
+            <rect x="2" y="4" width="20" height="16" rx="2"/><path d="M10 4v4"/><path d="M2 8h20"/><path d="M6 4v4"/>
+            </svg>
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              Data & Reporting Dashboards
+              </h3>
+              <p className="text-indigo-200/65">
+              We transform raw data into clear insights. From revenue tracking to campaign performance, you’ll always know where growth is coming from - and where you’re leaving money on the table.
               </p>
             </article>
             <article>
               <svg className="mb-3 stroke-indigo-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" >
-              <path d="m6 15-4-4 6.75-6.77a7.79 7.79 0 0 1 11 11L13 22l-4-4 6.39-6.36a2.14 2.14 0 0 0-3-3L6 15"/>
-              <path d="m5 8 4 4"/><path d="m12 15 4 4"/>
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/>
             </svg>
+            
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Marketing Automation
+              Team Training & Ongoing Support
               </h3>
               <p className="text-indigo-200/65">
-              From lead nurturing to AI-powered blog posts, videos, newsletters, and LinkedIn thought leadership — we automate your marketing efforts to keep your brand top-of-mind and your pipeline flowing.
+              We don’t just set it up and leave. We train your staff on best practices, provide playbooks, and offer continuous optimization so your systems stay sharp as your business grows.
               </p>
             </article>
           </div>

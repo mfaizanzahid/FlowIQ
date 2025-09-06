@@ -77,7 +77,7 @@ export default function Form() {
               Book A Free Consultation
             </h2>
             <p className="text-lg text-indigo-200/65 pb-8">
-            After you submit, we’ll reach out to schedule a quick, no-pressure call with one of our workflow experts!
+            After you submit, we’ll reach out to schedule a quick, no-pressure call with one of our systems experts!
             </p>
 
 
@@ -126,7 +126,7 @@ export default function Form() {
               />
               <textarea
                 name="automationArea"
-                placeholder="What’s one area you'd love to automate?"
+                placeholder="How can we help?"
                 value={formData.automationArea}
                 onChange={handleChange}
                 className="form-input w-full"

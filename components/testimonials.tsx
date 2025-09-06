@@ -27,46 +27,46 @@ const testimonials = [
     img: TestimonialImg01,
     clientImg: ClientImg01,
     name: "Emily Dawson",
-    company: "Precision Home Inspections",
+    company: "ComfortPro Heating & Cooling",
     content:
-      "Running a home inspection business means fielding tons of calls and emails every day. FlowIQ built us an AI agent that handles 80% of inquiries — from scheduling inspections to answering basic service questions. Our customers love the instant responses, and my team finally has more time to focus on delivering great inspections.",
-    categories: [1, 2],
+      "We’ve been on ServiceTitan for years, but honestly we were just scratching the surface. FlowIQ helped us clean up our data, build out automated follow-up campaigns, and create a system for upselling maintenance contracts. Within 3 months, our service agreement renewals jumped by 28% and our techs now walk into every job with pre-qualified upsell opportunities. It feels like we finally turned ServiceTitan into the revenue tool it should have been all along.",
+    categories: [1,2,3,4,5],
   },
   {
     img: TestimonialImg02,
     clientImg: ClientImg02,
     name: "Marcus Steele",
-    company: "ComfortFirst HVAC",
+    company: "ClearFlow Plumbing",
     content:
-      "We wanted to scale our HVAC business but were stuck manually following up on quotes and leads. FlowIQ designed a marketing automation system that sends personalized follow-ups, seasonal promos, and maintenance reminders automatically. Our booked jobs have increased by 30% without hiring new staff!",
-    categories: [1, 5],
+      "We were bleeding revenue by not rebooking seasonal jobs. FlowIQ set up a Zoho CRM pipeline that syncs with Jobber, and now our customers get automatic reminders and offers at just the right time. In the first 90 days, we booked 32 additional jobs from existing clients — no extra marketing spend. That’s the kind of ROI we’ve been looking for.",
+    categories: [1,2,3,4],
   },
   {
     img: TestimonialImg03,
     clientImg: ClientImg03,
     name: "Sarah Patel",
-    company: "Keystone Property Inspections",
+    company: "VoltPro Electric",
     content:
-      "In home inspection, speed matters. Clients want instant access to quotes and availability. FlowIQ built a custom AI app that gives potential clients an instant estimate and lets them book right away. Our conversion rate from inquiry to scheduled inspection jumped by over 50% after launch!",
-    categories: [1, 4],
+      "We knew we weren’t following up properly on estimates. FlowIQ set up GoHighLevel integrated with our ServiceTitan data. Now every lead is tracked, followed up, and nurtured until we get a yes or no. Our conversion rate on proposals jumped 21% in the first two months. It feels like we hired a full-time sales coordinator — without the overhead.",
+    categories: [1,2,3,4],
   },
   {
     img: TestimonialImg04,
     clientImg: ClientImg04,
     name: "Natalie Kim",
-    company: "UrbanNest Communities",
+    company: "TopShield Roofing",
     content:
-      "As a property management company handling multiple multifamily communities, missed maintenance calls were a nightmare. With FlowIQ’s AI voice solution, every call is answered immediately, maintenance requests are logged automatically, and urgent issues are escalated to our on-call techs. Tenant satisfaction scores have gone through the roof.",
-    categories: [1, 3],
+      "Before FlowIQ, we were booking jobs but not building long-term client value. They customized HubSpot for us and layered it onto our JobNimbus system. Now we have automated workflows for referrals, warranty check-ins, and seasonal promotions. We’ve already booked 19 referral jobs that never would’ve come in without this system. It’s like having a built-in growth engine that runs itself.",
+    categories: [1,2,3],
   },
   {
     img: TestimonialImg05,
     clientImg: ClientImg05,
     name: "Rebecca Lin",
-    company: "ArcticBreeze HVAC Solutions",
+    company: "PrimeCheck Inspections",
     content:
-      "Our HVAC company used to struggle with after-hours customer questions, and we were losing opportunities because of it. The AI agent FlowIQ deployed now answers questions, schedules service calls, and even troubleshoots basic HVAC issues. It’s like having a front-desk team working 24/7 without the cost.",
-    categories: [1, 2],
+      "We run a big team across multiple states using ISN. Scheduling was fine, but we weren’t getting enough repeat or referral business. FlowIQ created a rebooking and referral system using Zoho CRM that plugs right into ISN. Within 60 days, we saw a 25% increase in referral jobs and inspectors are now trained to flag upsell opportunities in real-time. It finally feels like ISN is helping us grow, not just manage appointments.",
+    categories: [1,2,3,4],
   },
   {
     img: TestimonialImg06,
@@ -74,35 +74,35 @@ const testimonials = [
     name: "David Brooks",
     company: "PureAir Heating & Cooling",
     content:
-      "We used to miss a lot of inbound HVAC service calls, especially on weekends. Now, thanks to the AI voice agent from FlowIQ, we never miss a lead. Customers get immediate assistance, and the AI even books appointments straight into our system. It’s easily added $20K+ a month in new revenue.",
-    categories: [1, 3],
+      "I used to spend hours every week double-checking ServiceTitan reports and chasing my team to follow up with unsold estimates. FlowIQ automated that entire process. Now every unsold estimate gets a consistent email/SMS/phone sequence, and our close rate on those has doubled. What’s more, I get clean dashboards in HubSpot that show me exactly where the money is. Game-changer for both revenue and my sanity.",
+    categories: [1, 2,3],
   },
   {
     img: TestimonialImg07,
     clientImg: ClientImg07,
     name: "Omar Hernandez",
-    company: "Apex Home Inspection",
+    company: "Streamline Plumbing Services",
     content:
-      "Between inspection reports, scheduling, and follow-ups, our admin workload was out of control. FlowIQ automated our entire workflow — from inquiry to inspection to report delivery. Clients now get faster service, and we've reduced manual tasks by 70%. Game-changer for our business.",
-    categories: [1, 5],
+      "ServiceTitan kept us organized, but it didn’t help us grow. FlowIQ built out a cross-selling system inside Salesforce that identifies when a drain-cleaning customer should get a water heater offer or repiping inspection. The extra jobs have been worth tens of thousands already, and the system just keeps running. It’s the smartest investment we’ve made in years.",
+    categories: [1, 2,3,4,5],
   },
   {
     img: TestimonialImg08,
     clientImg: ClientImg08,
     name: "Allison Greene",
-    company: "HarborStone Living",
+    company: "ClimateGuard HVAC",
     content:
-      "Keeping tenants informed across our multifamily properties was chaotic — emails, texts, notices everywhere. FlowIQ built a centralized communication automation system that sends updates, rent reminders, and maintenance notices instantly. Communication complaints from tenants have dropped dramatically.",
-    categories: [1, 5],
+      "FlowIQ helped us transform ServiceTitan from a scheduling tool into a sales machine. They built a Zoho integration that tracks leads all the way through service agreements and replacements. Our team is now automatically reminded when equipment warranties are expiring, which has added over $120k in replacement jobs in the last quarter. It feels like we finally have a system that works for us, not against us.",
+    categories: [1,2,3,4],
   },
   {
     img: TestimonialImg09,
     clientImg: ClientImg09,
     name: "Jonathan Reed",
-    company: "SummitView Apartments",
+    company: "EagleEye Home Inspections",
     content:
-      "Managing hundreds of units across multifamily properties generates mountains of service tickets. FlowIQ built a custom AI dashboard that categorizes, prioritizes, and routes tickets based on urgency. Our response time dropped by 65%, and maintenance teams are way more efficient now.",
-    categories: [1, 4],
+      "ISN gave us scheduling and management, but not much else. FlowIQ built automated post-inspection follow-ups that educate agents and clients, request reviews, and ask for referrals at the right moments. We’ve seen a 40% jump in Google reviews and now get consistent referral leads each month. It’s turned what used to be one-and-done inspections into a steady stream of repeat and referral business.",
+    categories: [1,2,3,4,5],
   },
 ];
 
@@ -118,11 +118,10 @@ export default function Testimonials() {
         {/* Section header */}
         <div className="mx-auto max-w-3xl pb-12 text-center">
           <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-          Why Businesses Trust FlowIQ to Automate Their Success
+          Real Results. Real Revenue.
           </h2>
           <p className="text-lg text-indigo-200/65">
-          When it comes to automation, it’s easy to get overwhelmed with flashy tech that sounds good but doesn’t actually move the needle.
-          At FlowIQ, we cut through the noise and focus on what matters: <u>real-world results</u>.
+          From HVAC to home inspections, our clients use FlowIQ to turn their service management software and CRMs into growth engines. These are their stories of higher close rates, more referrals, and <u>real bottom-line impact</u>.
           </p>
         </div>
 
@@ -154,9 +153,10 @@ export default function Testimonials() {
               >
         
                 <svg className={`${category === 2 ? "stroke-indigo-500" : "stroke-gray-600"}`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" >
-              <path strokeOpacity="1" d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/>
-              <path d="M2 14h2"/><path d="M20 14h2"/><path strokeOpacity="1" d="M15 13v2"/><path strokeOpacity="1" d="M9 13v2"/></svg>
-                <span>AI Agents</span>
+              
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"/>
+              </svg>
+                <span>Software Admin</span>
               </button>
               {/* Button #3 */}
               <button
@@ -165,9 +165,10 @@ export default function Testimonials() {
                 onClick={() => setCategory(3)}
               >
                <svg className={`${category === 3 ? "stroke-indigo-500" : "stroke-gray-600"}`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" >
-               <path d="M2 10v3"/><path d="M6 6v11"/><path d="M10 3v18"/><path d="M14 8v7"/><path d="M18 5v13"/><path d="M22 10v3"/></svg>
+               <path d="m14.305 7.53.923-.382"/><path d="m15.228 4.852-.923-.383"/><path d="m16.852 3.228-.383-.924"/><path d="m16.852 8.772-.383.923"/><path d="m19.148 3.228.383-.924"/><path d="m19.53 9.696-.382-.924"/><path d="m20.772 4.852.924-.383"/><path d="m20.772 7.148.924.383"/><path d="M22 13v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"/><path d="M8 21h8"/><circle cx="18" cy="6" r="3"/>
+               </svg>
 
-                <span>AI Voice</span>
+                <span>CRM Integration</span>
               </button>
               {/* Button #4 */}
               <button
@@ -176,8 +177,11 @@ export default function Testimonials() {
                 onClick={() => setCategory(4)}
               >
                 <svg className={`${category === 4 ? "stroke-indigo-500" : "stroke-gray-600"}`} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" >
-                <rect x="2" y="4" width="20" height="16" rx="2"/><path d="M10 4v4"/><path d="M2 8h20"/><path d="M6 4v4"/></svg>
-                <span>Custom AI Apps</span>
+               <path strokeOpacity="1" d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/>
+              <path d="M2 14h2"/><path d="M20 14h2"/><path strokeOpacity="1" d="M15 13v2"/><path strokeOpacity="1" d="M9 13v2"/>
+                
+                </svg>
+                <span>AI-Enabled Systems</span>
               </button>
               {/* Button #5 */}
               <button

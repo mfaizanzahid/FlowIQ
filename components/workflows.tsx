@@ -24,10 +24,10 @@ export default function Workflows() {
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Our Simple, Stress-Free Process
+            From Chaos to Clarity in 3 Simple Steps
             </h2>
             <p className="text-lg text-indigo-200/65">
-            We make automation easy. Here’s how we take you from messy workflows to smooth, AI-powered operations — without the overwhelm.
+            We know home service businesses don’t have time for endless consulting or complicated rollouts. That’s why our process is built to be fast, practical, and ROI-focused. Here’s how we take you from messy systems to predictable growth:
             </p>
           </div>
           {/* Spotlight items */}
@@ -73,7 +73,7 @@ export default function Workflows() {
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  We dig deep to find where your business is leaking time and money — through conversations with your team and an analysis of your existing processes.
+                  We audit your field service management software and CRM setup, map out your current sales/ops process, and pinpoint exactly where money is leaking.
                   </p>
                 </div>
               </div>
@@ -119,7 +119,7 @@ export default function Workflows() {
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  No random automation. We create a clear, easy-to-follow roadmap that prioritizes projects based on ROI and ease of implementation.
+                  You get a clear, no-fluff action plan with quick wins and long-term revenue drivers prioritized.
                   
                   </p>
                 </div>
@@ -166,7 +166,7 @@ export default function Workflows() {
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  We roll up our sleeves, build your custom solutions, and make sure your team is trained and excited to use them.
+                  Our team customizes your field service management software, builds out automations, and integrates AI-driven sales systems - without disrupting daily operations.
                   </p>
                 </div>
               </div>

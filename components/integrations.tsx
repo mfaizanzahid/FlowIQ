@@ -50,7 +50,7 @@ export default function Integrations() {
             We Play Nice with Your Favorite Tools
             </h2>
             <p className="text-lg text-indigo-200/65">
-            Already using a CRM, booking tool, or project management platform? Perfect.
+            Already using a CRM, scheduling tool, or project management platform? Perfect.
 Our AI systems integrate seamlessly with the platforms you already rely on.
             </p>
           </div>

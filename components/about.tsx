@@ -28,24 +28,24 @@ export default function About() {
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Meet Faizan, Your AI Automation Expert
+            Meet Faizan - Your Growth Systems Architect
             </h2>
 
 
 <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-16 mt-4">
   <div className="md:col-span-2 md:text-left text-md font-normal text-indigo-200/65">
     <p className="mb-4">
-      With 20+ years of experience across sales, marketing, operations, project management, and AI development — Faizan knows what it takes to make service businesses tick.
+      A growth strategist with 20+ years in sales, marketing, operations, workflow automation, and AI,  Faizan spent the last decade helping home service companies - HVAC, plumbing, roofing, electrical, and home inspections - not just run smoother, but scale smarter.
     </p>
     <p className="mb-4">
-      He’s not just another tech guy tossing around buzzwords. Faizan has personally led 100+ automation rollouts for home inspectors, HVAC pros, law firms and multifamily operators — turning clunky, manual workflows into smooth, scalable systems that save time and boost revenue.
+      By mastering platforms like ServiceTitan, ISN, Jobber, JobNimbus, and Housecall Pro - and pairing them with CRMs like Salesforce, Zoho, HubSpot, and Go High Level - Faizan has helped owners unlock hidden revenue streams through better follow-ups, upsells, cross-sells, and long-term service contracts. His systems consistently turn expensive, underutilized tools into profit centers that pay for themselves.
     </p>
     <p className="mb-4">
-      At FlowIQ, he brings that same real-world, results-first mindset to every project. Backed by a sharp team of AI engineers, automation pros, and workflow specialists, Faizan ensures you’re not just getting a cool bot — you’re getting a reliable solution that works in the trenches of your business.
+      Backed by a team of AI and automation specialists, Faizan built FlowIQ with one mission: help service businesses capture every opportunity they’re leaving on the table. Clients trust him for results, clarity, and systems that create measurable growth.
     </p>
     <p className="mb-4">
-      "I believe AI should be practical, profitable, and painless to use — not overwhelming or out of reach. That’s what we deliver at FlowIQ."
-      — Faizan, Founder of FlowIQ
+      <i>"I believe the future of home services belongs to businesses that master systems - not just sales. That’s exactly why I built FlowIQ."
+       —  Faizan, Founder of FlowIQ</i>
     </p>
   </div>
   <div>
