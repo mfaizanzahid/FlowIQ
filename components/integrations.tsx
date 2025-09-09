@@ -1,15 +1,15 @@
 import Image from "next/image";
 import Spotlight from "@/components/spotlight";
-import IntegrationImg01 from "@/public/images/isn.png";
-import IntegrationImg02 from "@/public/images/servicetitan.png";
-import IntegrationImg03 from "@/public/images/jobber.png";
-import IntegrationImg04 from "@/public/images/clio.png";
+import IntegrationImg01 from "@/public/images/callrail.png";
+import IntegrationImg02 from "@/public/images/vonage.png";
+import IntegrationImg03 from "@/public/images/clio.png";
+import IntegrationImg04 from "@/public/images/hubspot.png";
 import IntegrationImg05 from "@/public/images/salesforce.png";
 import IntegrationImg06 from "@/public/images/zoho.png";
-import IntegrationImg07 from "@/public/images/highlevel.png";
-import IntegrationImg08 from "@/public/images/clickup.png";
-import IntegrationImg09 from "@/public/images/monday.png";
-import IntegrationImg10 from "@/public/images/airtable.png";
+import IntegrationImg07 from "@/public/images/lawmatics.png";
+import IntegrationImg08 from "@/public/images/zoomphone.png";
+import IntegrationImg09 from "@/public/images/3cx.png";
+import IntegrationImg10 from "@/public/images/ringcentral.png";
 
 const logos = [
   IntegrationImg01,
@@ -47,11 +47,10 @@ export default function Integrations() {
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            We Play Nice with Your Favorite Tools
+            Seamless Integrations. Zero Disruption.
             </h2>
             <p className="text-lg text-indigo-200/65">
-            Already using a CRM, scheduling tool, or project management platform? Perfect.
-Our AI systems integrate seamlessly with the platforms you already rely on.
+            FlowIQ connects effortlessly with the telephony systems, CRMs, and practice management tools your team already uses - so you get better insights without changing how you work.
             </p>
           </div>
 <Spotlight className="group mx-auto grid max-w-sm items-start gap-6 lg:max-w-none lg:grid-cols-5">

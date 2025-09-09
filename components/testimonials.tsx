@@ -26,82 +26,82 @@ const testimonials = [
   {
     img: TestimonialImg01,
     clientImg: ClientImg01,
-    name: "Emily Dawson",
-    company: "ComfortPro Heating & Cooling",
+    name: "Sarah Whitman",
+    company: "Intake Director, Whitman & James LLP",
     content:
-      "We’ve been on ServiceTitan for years, but honestly we were just scratching the surface. FlowIQ helped us clean up our data, build out automated follow-up campaigns, and create a system for upselling maintenance contracts. Within 3 months, our service agreement renewals jumped by 28% and our techs now walk into every job with pre-qualified upsell opportunities. It feels like we finally turned ServiceTitan into the revenue tool it should have been all along.",
+      "Before FlowIQ, we were constantly wondering why cases were slipping through, but we didn’t have the data to prove it. The custom scorecards gave us a clear picture of where our team was falling short. In just three months, we’ve improved intake consistency by 60%, and coaching my team has gone from stressful guesswork to data-driven conversations. I can’t imagine managing intake without it now.",
     categories: [1,2,3,4,5],
   },
   {
     img: TestimonialImg02,
     clientImg: ClientImg02,
-    name: "Marcus Steele",
-    company: "ClearFlow Plumbing",
+    name: "Daniel Ruiz",
+    company: "Managing Partner, Ruiz Injury Law",
     content:
-      "We were bleeding revenue by not rebooking seasonal jobs. FlowIQ set up a Zoho CRM pipeline that syncs with Jobber, and now our customers get automatic reminders and offers at just the right time. In the first 90 days, we booked 32 additional jobs from existing clients — no extra marketing spend. That’s the kind of ROI we’ve been looking for.",
+      "One of the biggest shocks was realizing how many opportunities we were simply letting go unanswered. With FlowIQ’s rescue roadmap, we were able to recover over 40 missed opportunities last quarter alone. Each one of those could have been a lost client forever. That alone more than paid for the entire system, and now we’re confident no lead gets overlooked.",
     categories: [1,2,3,4],
   },
   {
     img: TestimonialImg03,
     clientImg: ClientImg03,
-    name: "Sarah Patel",
-    company: "VoltPro Electric",
+    name: "Angela Kim",
+    company: "Marketing Director, Kim & Hall Legal Group",
     content:
-      "We knew we weren’t following up properly on estimates. FlowIQ set up GoHighLevel integrated with our ServiceTitan data. Now every lead is tracked, followed up, and nurtured until we get a yes or no. Our conversion rate on proposals jumped 21% in the first two months. It feels like we hired a full-time sales coordinator — without the overhead.",
+      "As a marketing director, I always struggled to prove which campaigns actually brought us quality cases. FlowIQ finally gave us the visibility we needed into lead quality by source. We cut wasted ad spend by 25% within two months, and we’ve been able to reinvest in the campaigns that bring in the right cases. It’s the first time leadership and marketing are speaking the same language with real data.",
     categories: [1,2,3,4],
   },
   {
     img: TestimonialImg04,
     clientImg: ClientImg04,
-    name: "Natalie Kim",
-    company: "TopShield Roofing",
+    name: "Michelle Harris",
+    company: "Senior Intake Manager, Harris & Cole Trial Attorneys",
     content:
-      "Before FlowIQ, we were booking jobs but not building long-term client value. They customized HubSpot for us and layered it onto our JobNimbus system. Now we have automated workflows for referrals, warranty check-ins, and seasonal promotions. We’ve already booked 19 referral jobs that never would’ve come in without this system. It’s like having a built-in growth engine that runs itself.",
+      "Coaching my team used to feel like pulling teeth. I knew some staff were struggling, but I didn’t have a fair, objective way to show them where. The FlowIQ coaching dashboards changed everything — I can see exactly which areas need improvement, and I have the data to back it up. My team actually appreciates the feedback now because it feels fair and constructive. Our close rates have never been higher.",
     categories: [1,2,3],
   },
   {
     img: TestimonialImg05,
     clientImg: ClientImg05,
-    name: "Rebecca Lin",
-    company: "PrimeCheck Inspections",
+    name: "Emily Foster",
+    company: "Director of Operations, BrightPath Health Clinic",
     content:
-      "We run a big team across multiple states using ISN. Scheduling was fine, but we weren’t getting enough repeat or referral business. FlowIQ created a rebooking and referral system using Zoho CRM that plugs right into ISN. Within 60 days, we saw a 25% increase in referral jobs and inspectors are now trained to flag upsell opportunities in real-time. It finally feels like ISN is helping us grow, not just manage appointments.",
+      "In healthcare, intake calls are often chaotic — patients are stressed, and staff are rushed. FlowIQ gave our patient services team structure and accountability through scorecards and tracking. Within weeks, we started to see smoother conversations and fewer missed appointments. Appointment bookings went up 35%, but more importantly, patients tell us they feel more cared for right from the first call.",
     categories: [1,2,3,4],
   },
   {
     img: TestimonialImg06,
     clientImg: ClientImg06,
-    name: "David Brooks",
-    company: "PureAir Heating & Cooling",
+    name: "James O’Neill",
+    company: "Partner, O’Neill & Brooks Injury Lawyers",
     content:
-      "I used to spend hours every week double-checking ServiceTitan reports and chasing my team to follow up with unsold estimates. FlowIQ automated that entire process. Now every unsold estimate gets a consistent email/SMS/phone sequence, and our close rate on those has doubled. What’s more, I get clean dashboards in HubSpot that show me exactly where the money is. Game-changer for both revenue and my sanity.",
+      "We discovered through FlowIQ that so many consults were slipping away simply because follow-ups weren’t happening consistently. Once we put the rescue roadmap in place, every lead got a second touch. That small change alone increased our booked consultations by 42%. It’s one of those things you assume your team is handling until you actually see the data. Now we don’t leave it to chance.",
     categories: [1, 2,3],
   },
   {
     img: TestimonialImg07,
     clientImg: ClientImg07,
     name: "Omar Hernandez",
-    company: "Streamline Plumbing Services",
+    company: "Intake Supervisor, Chen & Marks Legal Advisors",
     content:
-      "ServiceTitan kept us organized, but it didn’t help us grow. FlowIQ built out a cross-selling system inside Salesforce that identifies when a drain-cleaning customer should get a water heater offer or repiping inspection. The extra jobs have been worth tens of thousands already, and the system just keeps running. It’s the smartest investment we’ve made in years.",
+      "FlowIQ’s trend tracker revealed something we’d completely missed — a recurring objection about fees that was costing us cases. Once we saw the pattern, we updated our scripts to address it early in the call. Almost overnight, conversions improved. It gave us real insight into client concerns that we just weren’t catching on our own. That kind of intelligence is priceless.",
     categories: [1, 2,3,4,5],
   },
   {
     img: TestimonialImg08,
     clientImg: ClientImg08,
     name: "Allison Greene",
-    company: "ClimateGuard HVAC",
+    company: "COO, Delgado Law Group",
     content:
-      "FlowIQ helped us transform ServiceTitan from a scheduling tool into a sales machine. They built a Zoho integration that tracks leads all the way through service agreements and replacements. Our team is now automatically reminded when equipment warranties are expiring, which has added over $120k in replacement jobs in the last quarter. It feels like we finally have a system that works for us, not against us.",
+      "Our leadership team used to rely on intake reports that were vague at best — mostly just call counts and contact rates. FlowIQ changed that. Now, we see exactly how intake performance ties back to marketing ROI and case quality. For the first time, we can make decisions with confidence about where to allocate budget and how to coach our team. It’s been a complete shift in how we manage intake.",
     categories: [1,2,3,4],
   },
   {
     img: TestimonialImg09,
     clientImg: ClientImg09,
-    name: "Jonathan Reed",
-    company: "EagleEye Home Inspections",
+    name: "Dr. Jonathan Reed",
+    company: "CEO, SmileWell Dental Group",
     content:
-      "ISN gave us scheduling and management, but not much else. FlowIQ built automated post-inspection follow-ups that educate agents and clients, request reviews, and ask for referrals at the right moments. We’ve seen a 40% jump in Google reviews and now get consistent referral leads each month. It’s turned what used to be one-and-done inspections into a steady stream of repeat and referral business.",
+      "Running multiple dental offices, intake was always our weak point. Each location had its own style, and we lacked consistency. FlowIQ standardized our scripts, added scorecards, and gave us clear QA reporting across every office. In just two months, our conversion rates jumped 28% — but what I love most is that now we have visibility across locations. I know exactly where the strengths and weaknesses are.",
     categories: [1,2,3,4,5],
   },
 ];
@@ -118,10 +118,10 @@ export default function Testimonials() {
         {/* Section header */}
         <div className="mx-auto max-w-3xl pb-12 text-center">
           <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-          Real Results. Real Revenue.
+          Real Firms. Real Results.
           </h2>
           <p className="text-lg text-indigo-200/65">
-          From HVAC to home inspections, our clients use FlowIQ to turn their service management software and CRMs into growth engines. These are their stories of higher close rates, more referrals, and <u>real bottom-line impact</u>.
+          See how business leaders, intake managers, and owners are using FlowIQ to gain clarity, consistency, and measurable results.
           </p>
         </div>
 

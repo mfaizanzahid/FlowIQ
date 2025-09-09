@@ -17,7 +17,7 @@ export default function HeroHome({ onBookConsultation }: HeroProps) {
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
               data-aos="fade-up"
             >
-             Stop Losing Revenue Hiding Inside Your <br/>Field Service Management Software
+             Turn Intake Into Your Growth Engine
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -25,7 +25,7 @@ export default function HeroHome({ onBookConsultation }: HeroProps) {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-              Your ServiceTitan, ISN, or Jobber is great at scheduling — but terrible at growing revenue. FlowIQ helps enterprise home service companies unlock hidden profit with CRM integration, AI-enabled sales systems, and hands-on FSM software management.
+              FlowIQ helps law firms, healthcare and service businesses track the right metrics, coach intake staff, and rescue missed opportunities — all with clarity and confidence.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>
@@ -34,7 +34,7 @@ export default function HeroHome({ onBookConsultation }: HeroProps) {
                   
                 >
                   <span className="relative inline-flex items-center">
-                    Book a Free Consultation
+                    Book a Free Demo
                     <span className="ml-1 tracking-normal text-white/50 transition-transform group-hover:translate-x-0.5">
                       -&gt;
                     </span>

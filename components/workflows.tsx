@@ -24,10 +24,10 @@ export default function Workflows() {
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            From Chaos to Clarity in 3 Simple Steps
+            From Data to Decisions in 3 Simple Steps
             </h2>
             <p className="text-lg text-indigo-200/65">
-            We know home service businesses don’t have time for endless consulting or complicated rollouts. That’s why our process is built to be fast, practical, and ROI-focused. Here’s how we take you from messy systems to predictable growth:
+            Fast to launch. Easy to scale. Built for impact.
             </p>
           </div>
           {/* Spotlight items */}
@@ -73,7 +73,7 @@ export default function Workflows() {
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  We audit your field service management software and CRM setup, map out your current sales/ops process, and pinpoint exactly where money is leaking.
+                  We start by reviewing your current intake process, call handling, and lead flow. Our team identifies blind spots, missed opportunities, and gaps in visibility.
                   </p>
                 </div>
               </div>
@@ -114,12 +114,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                      Stage 2: Roadmap
+                      Stage 2: Customize
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  You get a clear, no-fluff action plan with quick wins and long-term revenue drivers prioritized.
+                  Next, we design scorecards, dashboards, and reporting tailored to your business. Every metric, integration, and workflow is aligned to your goals — whether that’s more booked consults, higher case quality, or better staff performance.
                   
                   </p>
                 </div>
@@ -161,12 +161,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                      Stage 3: Implementation
+                      Stage 3: Deploy
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  Our team customizes your field service management software, builds out automations, and integrates AI-driven sales systems - without disrupting daily operations.
+                  We roll out FlowIQ with your team, providing training, support, and coaching along the way. From day one, you’ll see objective insights, consistent performance tracking, and a roadmap for rescuing lost opportunities.
                   </p>
                 </div>
               </div>

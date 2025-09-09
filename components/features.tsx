@@ -41,10 +41,10 @@ export default function Features() {
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Services That Put Your Service Management Software to Work
+            Actionable Intelligence. <br/>Measurable Results.
             </h2>
             <p className="text-lg text-indigo-200/65">
-           We don’t replace your tools — we make them smarter, leaner, and revenue-focused.
+           Everything your intake team needs to perform at their best.
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
@@ -68,10 +68,10 @@ export default function Features() {
 
               
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              FSM Software Implementation & Admin
+              Coaching Tool for Intake Staff
               </h3>
               <p className="text-indigo-200/65">
-              We handle the heavy lifting of implementing, managing and customizing ServiceTitan, ISN, Jobber, and more. From setting up workflows to cleaning data, your platform runs smoother, faster, and error-free.
+              Every call is scored against objective standards, giving intake managers a clear view of where staff excel and where they need improvement. Instead of subjective feedback, your team receives precise, data-backed coaching to boost consistency, empathy, and conversion.
               </p>
             </article>
             <article>
@@ -82,10 +82,10 @@ export default function Features() {
             
 
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              CRM Integration & Sales Systems
+              Lead Quality Intelligence
               </h3>
               <p className="text-indigo-200/65">
-              Zoho, Salesforce, HubSpot, GoHighLevel - we build and manage custom CRMs that plug into your scheduling software. With pipelines, automations, and dashboards designed for sales, your team always knows the next best move.
+              FlowIQ doesn’t just track volume, it evaluates the quality of leads. See which marketing campaigns produce high-value cases, which channels underperform, and where you’re spending dollars without ROI. Firm leadership finally has clarity on which marketing levers actually drive growth.
               </p>
             </article>
             <article>
@@ -97,10 +97,10 @@ export default function Features() {
               </svg>
 
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              AI-Enabled Revenue Growth Systems
+              Rescue Roadmap
               </h3>
               <p className="text-indigo-200/65">
-              We inject AI into your sales stack. From smart follow-up campaigns to predictive upselling, our systems help you win back lost leads, sell more maintenance contracts, and capture repeat business automatically.
+              Missed calls, dropped leads, and unreturned voicemails are inevitable — but they don’t have to mean lost revenue. FlowIQ highlights every missed opportunity and generates a structured roadmap for follow-up so your team can recover clients before they move on to a competitor.
               </p>
             </article>
             <article>
@@ -112,10 +112,10 @@ export default function Features() {
             </svg>
               
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Workflow & Marketing Automation
+              Trend Tracker
               </h3>
               <p className="text-indigo-200/65">
-              We automate the operational grind (reminders, invoicing, job tracking) AND your marketing (email, SMS, content). The result: more booked jobs, fewer dropped balls, and 40+ hours a week saved for your team.
+              Intake is where the market speaks first. FlowIQ tracks common objections, referral sources, and case types across your pipeline, giving you the insight to adjust messaging, refine offers, and make smarter operational decisions based on real-world data.
               </p>
             </article>
             <article>
@@ -125,10 +125,10 @@ export default function Features() {
             <rect x="2" y="4" width="20" height="16" rx="2"/><path d="M10 4v4"/><path d="M2 8h20"/><path d="M6 4v4"/>
             </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Data & Reporting Dashboards
+              Custom Scorecards & Metrics
               </h3>
               <p className="text-indigo-200/65">
-              We transform raw data into clear insights. From revenue tracking to campaign performance, you’ll always know where growth is coming from - and where you’re leaving money on the table.
+             One-size-fits-all doesn’t cut it. FlowIQ builds scorecards and metrics around your business model, practice area, and goals. Whether you want to track empathy in client calls, speed-to-lead response, or consultation conversion rates, FlowIQ adapts to what matters most to you.
               </p>
             </article>
             <article>
@@ -137,10 +137,10 @@ export default function Features() {
             </svg>
             
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-              Team Training & Ongoing Support
+              Performance Dashboards
               </h3>
               <p className="text-indigo-200/65">
-              We don’t just set it up and leave. We train your staff on best practices, provide playbooks, and offer continuous optimization so your systems stay sharp as your business grows.
+              Replace guesswork with crystal-clear dashboards that put intake performance, lead flow, and lost opportunity costs at your fingertips. Firm owners and managers gain the visibility they need to hold teams accountable and make confident growth decisions.
               </p>
             </article>
           </div>

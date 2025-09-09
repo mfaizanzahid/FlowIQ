@@ -28,24 +28,24 @@ export default function About() {
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Meet Faizan - Your Growth Systems Architect
+            Meet Faizan - Man Behind the Metrics
             </h2>
 
 
 <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-16 mt-4">
   <div className="md:col-span-2 md:text-left text-md font-normal text-indigo-200/65">
     <p className="mb-4">
-      A growth strategist with 20+ years in sales, marketing, operations, workflow automation, and AI,  Faizan spent the last decade helping home service companies - HVAC, plumbing, roofing, electrical, and home inspections - not just run smoother, but scale smarter.
+      Faizan brings over two decades of proven expertise across sales, intake management, digital marketing, operations, and workflow automation. He’s worked directly with law firms, healthcare and service businesses, witnessing the costly impact of missed leads, weak follow-ups, and blind spots in performance.
     </p>
     <p className="mb-4">
-      By mastering platforms like ServiceTitan, ISN, Jobber, JobNimbus, and Housecall Pro - and pairing them with CRMs like Salesforce, Zoho, HubSpot, and Go High Level - Faizan has helped owners unlock hidden revenue streams through better follow-ups, upsells, cross-sells, and long-term service contracts. His systems consistently turn expensive, underutilized tools into profit centers that pay for themselves.
+      What makes Faizan unique is his ability to bridge real-world intake challenges with data-driven solutions. He’s coached teams, optimized workflows, and built systems that help firms rescue revenue and consistently perform at their best.
     </p>
     <p className="mb-4">
-      Backed by a team of AI and automation specialists, Faizan built FlowIQ with one mission: help service businesses capture every opportunity they’re leaving on the table. Clients trust him for results, clarity, and systems that create measurable growth.
+      Today, FlowIQ reflects that mission - combining Faizan’s experience with a dedicated team of experts in software, integrations, and analytics to deliver a customizable platform that drives measurable results for firms of every size.
     </p>
     <p className="mb-4">
-      <i>"I believe the future of home services belongs to businesses that master systems - not just sales. That’s exactly why I built FlowIQ."
-       —  Faizan, Founder of FlowIQ</i>
+      <i>"I built FlowIQ to give firms the clarity and confidence they need to grow - with the right metrics, the right tools, and the right team by their side."
+       -  Faizan, Founder of FlowIQ</i>
     </p>
   </div>
   <div>

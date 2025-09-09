@@ -75,7 +75,7 @@ export default function Header({ onBookConsultation }: HeaderProps) {
                 onClick={onBookConsultation}
               >
                 <span className="relative inline-flex items-center">
-                  Free Consultation
+                  Get Started
                 </span>
               </button>
             </li>
