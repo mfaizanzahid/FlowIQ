@@ -6,6 +6,7 @@ import Header from "@/components/ui/header";
 import Form from "@/components/form-try";
 import Try from "./try";
 
+
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -14,8 +15,9 @@ export default function Home() {
 
   return (
     <>
-    {/* <Header onBookConsultation={openModal} /> */}
+    <Header onBookConsultation={openModal} />
       <Try onBookConsultation={openModal} />
+
 
       
       {/* Modal */}
