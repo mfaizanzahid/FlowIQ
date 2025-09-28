@@ -50,14 +50,10 @@ export default function Try({ onBookConsultation }: HeroProps) {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                FlowIQ is built to give you a simple, powerful way to understand
-                your intake performance, coach your team effectively, and maximize
-                the return on your marketing efforts.
+                We built FlowIQ with one goal in mind: to give you a simple, powerful way to understand your intake performance, coach your team effectively, and maximize the return on your marketing efforts.
                 <br />
                 <br />
-                If you're interested in seeing what FlowIQ can do for you, we're
-                offering an exclusive, no-obligation 6-month extended free trial
-                to a few select firms. Click below to secure your spot now.
+                If you're interested in seeing what it can do for your firm, I'm personally offering an exclusive, no-obligation 6-month extended free trial to a few select firms. Click below to secure your spot!
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>

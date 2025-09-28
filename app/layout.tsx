@@ -43,8 +43,8 @@ const nacelle = localFont({
 });
 
 export const metadata = {
-  title: "FlowIQ - AI Agents, Apps, and Workflow Automation",
-  description: "FlowIQ is an AI agency that automates workflows and enhances productivity through intelligent AI agents and apps for local businesses.",
+  title: "FlowIQ | Intake Intelligence for Law Firms & Service Businesses",
+  description: "Intake performance insights, lead quality reporting, and coaching tools for firm owners, intake directors, and marketing leaders.",
   
 };
 
