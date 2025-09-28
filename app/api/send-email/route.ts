@@ -8,9 +8,9 @@ dotenv.config(); // Load environment variables
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { fullName, companyName, email, phone, automationArea } = body;
+    const { fullName, companyName, email, phone, automationArea, phoneSystem, subject } = body;
 
-    if (!fullName || !companyName || !email || !phone || !automationArea) {
+    if (!fullName || !companyName || !email || !phone ) {
       return NextResponse.json({ message: "All fields are required" }, { status: 400 });
     }
 
@@ -35,7 +35,7 @@ export async function POST(req: NextRequest) {
     await transporter.sendMail({
       from: `"FlowIQ" <${process.env.FROM_EMAIL}>`, // Replace with your email
       to: process.env.TO_EMAIL, // Replace with the recipient's email
-      subject: "New Consultation Request",
+      subject: subject,
       html: `
         <table style="width: 100%; border-collapse: collapse">
           <tr>
@@ -55,8 +55,12 @@ export async function POST(req: NextRequest) {
             <td style="padding: 8px; border: 1px solid #ddd">${phone}</td>
           </tr>
           <tr>
-            <th style="text-align: left; padding: 8px; border: 1px solid #ddd">Automation Area</th>
+            <th style="text-align: left; padding: 8px; border: 1px solid #ddd">Challenge</th>
             <td style="padding: 8px; border: 1px solid #ddd">${automationArea}</td>
+          </tr>
+          <tr>
+            <th style="text-align: left; padding: 8px; border: 1px solid #ddd">Phone System</th>
+            <td style="padding: 8px; border: 1px solid #ddd">${phoneSystem}</td>
           </tr>
         </table>
       `,

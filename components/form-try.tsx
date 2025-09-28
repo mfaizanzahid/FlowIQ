@@ -4,14 +4,14 @@ import { useState } from "react";
 import Image from "next/image";
 import BlurredShape from "@/public/images/blurred-shape.svg";
 
-export default function Form() {
+export default function FormTry() {
   const [formData, setFormData] = useState({
     fullName: "",
     companyName: "",
     email: "",
     phone: "",
     phoneSystem: "",
-    subject:"Intake Demo Request",
+    subject:"Book Exclusive 6-month Intake Trial",
     // automationArea: "",
   });
 
@@ -76,10 +76,11 @@ export default function Form() {
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl"
               data-aos="fade-up"
             >
-              Book A Free Demo
+              Book Exclusive 6-month Trial
             </h2>
             <p className="text-lg text-indigo-200/65 pb-8">
-            After you submit, we’ll reach out to schedule a quick, no-pressure call with one of our experts!
+            Ready to See What's Really Happening on Your Intake Calls?
+
             </p>
 
 

@@ -27,7 +27,7 @@ const testimonials = [
     img: TestimonialImg01,
     clientImg: ClientImg01,
     name: "Sarah Whitman",
-    company: "Intake Director, Whitman & James LLP",
+    company: "Intake Director, Kennedy & James LLP",
     content:
       "Before FlowIQ, we were constantly wondering why cases were slipping through, but we didn’t have the data to prove it. The custom scorecards gave us a clear picture of where our team was falling short. In just three months, we’ve improved intake consistency by 60%, and coaching my team has gone from stressful guesswork to data-driven conversations. I can’t imagine managing intake without it now.",
     categories: [1,2,3,4,5],
@@ -44,7 +44,7 @@ const testimonials = [
   {
     img: TestimonialImg03,
     clientImg: ClientImg03,
-    name: "Angela Kim",
+    name: "Angela Kurt",
     company: "Marketing Director, Kim & Hall Legal Group",
     content:
       "As a marketing director, I always struggled to prove which campaigns actually brought us quality cases. FlowIQ finally gave us the visibility we needed into lead quality by source. We cut wasted ad spend by 25% within two months, and we’ve been able to reinvest in the campaigns that bring in the right cases. It’s the first time leadership and marketing are speaking the same language with real data.",
@@ -156,7 +156,7 @@ export default function Testimonials() {
               
               <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"/>
               </svg>
-                <span>Software Admin</span>
+                <span>Intake Intelligence</span>
               </button>
               {/* Button #3 */}
               <button
@@ -168,7 +168,7 @@ export default function Testimonials() {
                <path d="m14.305 7.53.923-.382"/><path d="m15.228 4.852-.923-.383"/><path d="m16.852 3.228-.383-.924"/><path d="m16.852 8.772-.383.923"/><path d="m19.148 3.228.383-.924"/><path d="m19.53 9.696-.382-.924"/><path d="m20.772 4.852.924-.383"/><path d="m20.772 7.148.924.383"/><path d="M22 13v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"/><path d="M8 21h8"/><circle cx="18" cy="6" r="3"/>
                </svg>
 
-                <span>CRM Integration</span>
+                <span>Intake Coaching</span>
               </button>
               {/* Button #4 */}
               <button
@@ -181,7 +181,7 @@ export default function Testimonials() {
               <path d="M2 14h2"/><path d="M20 14h2"/><path strokeOpacity="1" d="M15 13v2"/><path strokeOpacity="1" d="M9 13v2"/>
                 
                 </svg>
-                <span>AI-Enabled Systems</span>
+                <span>Rescue Roadmap</span>
               </button>
               {/* Button #5 */}
               <button
@@ -193,7 +193,7 @@ export default function Testimonials() {
             <circle cx="4.5" cy="12" r="2.5"/><path d="M7 12h10"/>
             <circle cx="19.5" cy="12" r="2.5"/><path d="m13.8 17.7 3.9-3.9"/>
             <circle cx="12" cy="19.5" r="2.5"/></svg>
-                <span>Automation</span>
+                <span>Performance Dashboards</span>
               </button>
             </div>
           </div>
