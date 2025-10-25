@@ -14,6 +14,7 @@ interface ModalVideoProps {
   video: string;
   videoWidth: number;
   videoHeight: number;
+  videoLength: string;
 }
 
 export default function ModalYTVideo({
@@ -24,6 +25,7 @@ export default function ModalYTVideo({
   video,
   videoWidth,
   videoHeight,
+  videoLength
 }: ModalVideoProps) {
   const [modalOpen, setModalOpen] = useState<boolean>(false);
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -102,7 +104,7 @@ export default function ModalYTVideo({
             <span className="text-sm font-medium leading-tight text-gray-300">
               Watch Video
               <span className="text-gray-600"> - </span>
-              3:49
+              {videoLength}
             </span>
           </span>
         </span>

@@ -1,5 +1,6 @@
 import VideoThumb from "@/public/images/hero-image-01.jpg";
 import ModalVideo from "@/components/modal-video";
+import ModalYTVideo from "@/components/modal-ytvideo";
 
 interface HeroProps {
   onBookConsultation: () => void;
@@ -53,7 +54,7 @@ export default function HeroHome({ onBookConsultation }: HeroProps) {
             </div>
           </div>
 
-          <ModalVideo
+          {/* <ModalVideo
             thumb={VideoThumb}
             thumbWidth={1104}
             thumbHeight={576}
@@ -61,6 +62,19 @@ export default function HeroHome({ onBookConsultation }: HeroProps) {
             video="videos//video.mp4"
             videoWidth={1920}
             videoHeight={1080}
+          />
+           */}
+
+
+          <ModalYTVideo
+            thumb={VideoThumb}
+            thumbWidth={1104}
+            thumbHeight={576}
+            thumbAlt="Modal YouTube video thumbnail"
+            video="https://www.youtube.com/embed/REYL1FCVVYQ"
+            videoWidth={1920}
+            videoHeight={1080}
+            videoLength="1:32"
           />
         </div>
       </div>

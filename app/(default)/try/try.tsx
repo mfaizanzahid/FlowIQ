@@ -42,6 +42,7 @@ export default function Try({ onBookConsultation }: HeroProps) {
                 video="https://www.youtube.com/embed/5oyNWs8r_bU?si=2zzGtQdX4NMbLAKF"
                 videoWidth={1280}
                 videoHeight={720}
+                videoLength="3:49"
               />
             </div>
             <div className="mx-auto max-w-5xl">
